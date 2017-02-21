@@ -1,4 +1,5 @@
 
+
 package ejerciciopoo;
 
 import ch.aplu.turtle.Turtle;
@@ -8,10 +9,10 @@ import java.util.*;
  *
  * @author Equipo
  */
-public class POO {
+public class Scene {
    private  Turtle joe;
    
-   public POO(){
+   public Scene(){
      this.joe =  new Turtle(); 
    }
    
@@ -66,7 +67,7 @@ public class POO {
        b= lec.nextDouble();
        System.out.println("Introduce pentagon side length");
        c= lec.nextDouble();
-       POO e = new POO();
+       Scene e = new Scene();
        e.Triangle(a);
        e.Square(a,b);
        e.Pentagon(a,b,c);
